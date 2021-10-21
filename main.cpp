@@ -33,7 +33,7 @@ int main()
 
   std::ofstream out_file2;
   out_file2.open("fixed-code1.cpp");
-  
+
   int openblocks = 0;
 
   while (!in_file2.fail())
@@ -52,6 +52,6 @@ int main()
       openblocks++;
 
     std::cout << resultline << '\n';
-    out_file2 << resultline << 'n';
+    out_file2 << resultline << '\n';
   }
 }
