@@ -8,4 +8,8 @@ int main()
 
   std::cout << '\n' << "------------- SECOND TEST -------------\n\n";
   fixIndent("bad-code2.cpp");
+
+  std::cout << '\n' << "------------- THIRD TEST -------------\n\n";
+  fixIndent("bad-code3.cpp");
+
 }
